@@ -1,0 +1,198 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.header-image {
+  max-width: 100%;
+  height: 150px;
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-box {
+  width: 100%;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.application {
+  display: flex;
+  font-family: 'Your-Font-Name', sans-serif; /* Replace with your chosen font */
+  font-size: 15px; /* Adjust font size as needed */
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.label {
+  font-size: 20px;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* ... (previous styles) ... */
+
+.gender-buttons, .mbti-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Vertically center the buttons */
+  margin-bottom: 1.5rem;
+}
+
+.gender-button, .mbti-button {
+  flex: 1;
+  padding: 0.7rem 1.5rem; /* Increase horizontal padding */
+  margin: 0.5rem; /* Add margin for spacing */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+/* ... (rest of your styles) ... */
+
+
+.gender-button.active[data-gender="male"] {
+  background-color: #007bff;
+  color: white;
+}
+
+.gender-button.active[data-gender="female"] {
+  background-color: #ff69b4;
+  color: white;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.mbti-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.mbti-button {
+  padding: 0.7rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  text-align: center;
+  flex: 1;
+}
+
+.mbti-button.active {
+  background-color: #ffb655; /* 파스텔 톤의 주황색 */
+  color: white;
+}
+
+/* 기존 스타일 코드 */
+
+.centered {
+  text-align: center;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 가로 방향 가운데 정렬 */
+}
+
+.centered-label {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+.label,.centered-label{
+  display: inline-block;
+  padding: 0.3rem 0.7rem;
+  background-color: #f0f0f0; /* Light gray background color */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+/* ... (previous styles) ... */
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.image-button {
+  position: relative;
+  width: 100%;
+  border: none;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.image-button img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(116, 231, 183, 0.5); /* Slightly opaque yellow background */
+  border-radius: 8px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-button:hover .overlay {
+  display: flex;
+}
+
+.checkmark {
+  color: rgb(255, 255, 255); /* Change color to black */
+  font-size: 32px; /* Increase font size for bigger checkmarks */
+}
+
+/* ... (rest of your styles) ... */
