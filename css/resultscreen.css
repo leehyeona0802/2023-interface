@@ -1,0 +1,54 @@
+#result{
+    display: none;
+    background-color: whitesmoke;
+    text-align: center; /*글자들을 중앙으로*/
+    border-radius: 20px; /*테두리부분을 동글하게 만들기*/
+    font-size: 200%;
+    font-family: 'HeirofLight';
+}
+
+#result_mbti {
+    font-size: 20pt;
+}
+
+ul{
+    text-align: center;
+}
+
+li {
+    display:inline-block;
+    list-style-type:none;
+    margin: 20px;
+}
+
+.resultDesc {
+    font-size: 20pt;
+    text-align: center;
+    font-family: 'HeirofLight';
+} 
+
+.best_mbti{
+    border: 20px solid rgb(59, 156, 197);
+    border-radius: 20px;
+    font-family: 'HeirofLight';
+    font-size: 20pt;
+}
+
+.worst_mbti{
+    border: 20px solid rgb(114,137,147);
+    border-radius: 20px;
+    font-family: 'HeirofLight';
+    font-size: 20pt;
+}
+
+@font-face {
+    font-family: 'HeirofLight';
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/heiroflight/HeirofLightRegular.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/heiroflight/HeirofLightRegular.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/heiroflight/HeirofLightRegular.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/heiroflight/HeirofLightRegular.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/heiroflight/HeirofLightRegular.ttf') format("truetype");
+    font-display: swap;
+}
