@@ -1,5 +1,5 @@
 const select = []
-const totalPoint = 40; // 총 점수
+const totalPoint = localStorage.getItem("score"); // 총 점수
 const main = document.querySelector("#main");
 const resultscreen = document.querySelector("#result")
 const opposite_mbti = localStorage.getItem("idealType")
@@ -164,5 +164,7 @@ function begin1(){
         main.style.display = "none";
         result.style.display = "block";
         console.log(localStorage.getItem("mbtiType"));
+        console.log(localStorage.getItem("score"));
         setResult()
+        localStorage.setItem("score", 0);
 }

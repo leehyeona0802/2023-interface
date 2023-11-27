@@ -1,0 +1,157 @@
+.questionLayout {
+    display: flex;
+    flex-direction: column;
+    background-color: #bacee0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .flirtingTitle {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  .flirtingTitle div:nth-child(1) {
+    display: flex;
+    flex: 1;
+  }
+  .questionItemLayout {
+    display: flex;
+    flex: 1;
+    margin-left: 15%;
+    font-size: 90%;
+  }
+  .questionItem {
+    display: flex;
+    flex-direction: column; 
+    max-width: fit-content;
+    border-radius: 8px;
+    padding: 4%;
+    background-color: #fff;
+    margin-top: 1%;
+  }
+  
+  .questionItem.break-line {
+    border-radius: 8px;
+    padding: 4%;
+    background-color: #fff;
+    margin-top: 1%;
+  }
+  .break-line {
+    display: flex;
+    flex-direction: column; 
+    border-radius: 8px;
+    padding: 4%;
+    background-color: #fff;
+    margin-top: 1%;
+  }
+  
+  .answerItemLayout {
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .ifListLayout {
+    display: flex;
+    background-color: #ffffff;
+    width: 80%;
+    opacity: 0.5;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 87%;  
+    color: black;
+  }
+  .profileImg {
+    display: flex;
+    flex-direction: column;
+    width: 35px;
+    height: 35px;
+    background-color: #a1b6e9;
+    border-radius: 15px;
+    margin-left: 4%;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .chatListLayout {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    background-color: red;
+  }
+  
+  .chatBox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 60vw;
+    font-size: 13px;
+    margin: 3px 0px 12px 0px;
+  }
+  
+  .chatBox div:nth-child(1) {
+    color: #fff;
+    font-size: 4px;
+    margin-top: 5px;
+  }
+  
+  .chatBox div:nth-child(2) {
+    padding: 7px 10px 7px 10px;
+    background-color: #fff;
+    margin-left: -4px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .aChatBox {
+    display: flex;
+    width: 100%;
+    color: #969696;
+    font-size: 22px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 25px;
+  }
+  
+  .aChatBox div:nth-child(1) {
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .aChatBox div:nth-child(2) {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .select {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 15px;
+  }
+  .select button {
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 15px;
+    padding: 5%;
+  }
+  
+  .questionItemDiv{
+    display: flex;
+    flex-direction: column; 
+    max-width: fit-content;
+    border-radius: 8px;
+    padding: 4%;
+    background-color: #fff;
+    margin-top: 1%;
+  }

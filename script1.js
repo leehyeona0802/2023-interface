@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
      });
 
 
-    nextButton1.addEventListener("click", function() {
+    nextButton.addEventListener("click", function() {
       
         const selectedButton = document.querySelector(".image-button.active");
   
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const idealType = selectedButton.querySelector("img").alt;
               
         localStorage.setItem("idealType", idealType);
-        window.location.href = "resultscreen.html";
+        window.location.href = "middlescreen.html";
       
       });
 

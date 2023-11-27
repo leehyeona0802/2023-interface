@@ -42,7 +42,12 @@ document.addEventListener("DOMContentLoaded", function() {
       localStorage.setItem("gender", gender);
       localStorage.setItem("mbtiType", mbtiType);
 
-      window.location.href = "test2.html";
+      // 여기서 사용자의 성별에 따라 다른 페이지로 이동합니다.
+      if (gender === "male") {
+        window.location.href = "test2_g.html"; // 남성을 위한 페이지
+      } else if (gender === "female") {
+        window.location.href = "test2_m.html"; // 여성을 위한 페이지
+      }
     });
   
      
