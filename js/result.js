@@ -148,7 +148,7 @@ function setResult(){
         imgDiv.appendChild(resultImg);
 
         const resultDesc = document.querySelector('.resultDesc');
-        resultDesc.innerHTML = "당신은 낙제생입니다 ㅜㅜ" + '<br>' + "더 배워오세요" + '<br>' + '<button type="button" class="btn btn-outline-success" onClick="location.href=\"https:\\www.youtube.com\\"">배우러 가기</button>'
+        resultDesc.innerHTML = "당신은 낙제생입니다 ㅜㅜ" + '<br>' + "더 배워오세요" + '<br>' + "<button type='button' class='btn btn-outline-success' onClick=\"location.href='https://www.youtube.com/watch?v=QVJUp6hA-ng'\">배우러 가기</button>"
         
 
         const best_mbti1 = document.querySelector('.best_mbti');
