@@ -213,7 +213,7 @@ function goToPage(event) {
     index++;
     ifListLayout.innerText = data[index]["if"];
     questionItemLayout.innerHTML = data[index]["q"];
-    BtnPutform(index, form);
+    
     select.appendChild(form);
     console.log(score);
     itemInit();
