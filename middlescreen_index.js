@@ -211,13 +211,13 @@ function goToPage(event) {
     select.innerHTML = "";
     const form = document.createElement("form");
     index++;
-    ifListLayout.innerText = data[index]["if"];
-    questionItemLayout.innerHTML = data[index]["q"];
-    BtnPutform(index, form);
+    ifListLayout.innerText = data[index]
+   
     select.appendChild(form);
     console.log(score);
     itemInit();
   }
 }
+
 
 init();
