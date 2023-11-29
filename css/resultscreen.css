@@ -3,42 +3,46 @@
     background-color: whitesmoke;
     text-align: center; /*글자들을 중앙으로*/
     border-radius: 20px; /*테두리부분을 동글하게 만들기*/
-    font-size: 200%;
+    font-size: 20%;
     font-family: 'HeirofLight';
 }
 
 #result_mbti {
     font-size: 20pt;
+    font-family: 'HeirofLight';
 }
 
 ul{
-    text-align: center;
+    margin: auto;
+    font-family: 'HeirofLight';
+    padding: 0%;
 }
 
 li {
-    display:inline-block;
+    margin: 10%;
     list-style-type:none;
-    margin: 20px;
 }
 
 .resultDesc {
     font-size: 20pt;
     text-align: center;
+    
     font-family: 'HeirofLight';
 } 
 
 .best_mbti{
     border: 20px solid rgb(59, 156, 197);
-    border-radius: 20px;
+    border-radius: 50px;
     font-family: 'HeirofLight';
     font-size: 20pt;
 }
 
 .worst_mbti{
     border: 20px solid rgb(114,137,147);
-    border-radius: 20px;
+    border-radius: 50px;
     font-family: 'HeirofLight';
     font-size: 20pt;
+    justify-content: center;
 }
 
 @font-face {

@@ -19,10 +19,13 @@
     flex: 1;
   }
   .questionItemLayout {
+    width: 100%;
+    background-color: fff;
+    padding-bottom: 10px;
     display: flex;
-    flex: 1;
+    flex-direction: column;
+    margin-top: 3%;
     margin-left: 15%;
-    font-size: 90%;
   }
   .questionItem {
     display: flex;
@@ -32,6 +35,8 @@
     padding: 4%;
     background-color: #fff;
     margin-top: 1%;
+    width : max-content;
+   
   }
   
   .questionItem.break-line {
@@ -52,17 +57,17 @@
   .answerItemLayout {
     width: 100%;
     background-color: #fff;
-    padding-bottom: 10px;
-    display: flex;
     flex-direction: column;
-    
+    display: flex;
+    margin-top: auto;
   }
   .ifListLayout {
     display: flex;
     background-color: #ffffff;
     width: 80%;
     opacity: 0.5;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
     border-radius: 15px;
     font-size: 87%;  
